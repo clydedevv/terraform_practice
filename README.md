@@ -41,18 +41,18 @@ To deploy the infrastructure in your desired environment:
 
 1. Initialize Terraform:
 
-'''bash
+```bash
 terraform init
-'''
+```
 
 
 2. Apply the configuration for the specific environment:
 
-'''bash
+```bash
 terraform apply -var="environment=dev" # For development
 terraform apply -var="environment=staging" # For staging
 terraform apply -var="environment=prod" # For production
-'''
+```
 
 
 3. Review the plan and approve to proceed with the deployment.
